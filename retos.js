@@ -18,7 +18,6 @@ let addedPairNumbers = 0;
 for (let i = 0; i < numberList2.length; i++) {
     if (numberList2[i] % 2 == 0) {
         addedPairNumbers += numberList2[i];
-        console.log
     }   
 }
 
