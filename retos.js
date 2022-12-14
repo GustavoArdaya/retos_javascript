@@ -33,7 +33,7 @@ for (let i = 0; i < mixedArray.length; i++) {
         onlyStrings.push(mixedArray[i]);
     }
 }
-console.log(onlyStrings);
+console.log("Inside a mixed array of numbers and strings: "+ onlyStrings + " are strings");
 
 //Cuarto reto: "Dado un array de strings imprime un array de solamente los strings que empiezan por ‘a’.
 
@@ -45,4 +45,4 @@ for (let i = 0; i < manyAnimals.length; i++) {
         StartsWithA.push(manyAnimals[i]);
     }  
 }
-console.log(StartsWithA);
+console.log(`from a list of many animals ${StartsWithA} start with the letter a`);
