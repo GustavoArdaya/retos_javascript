@@ -37,3 +37,12 @@ console.log(onlyStrings);
 
 //Cuarto reto: "Dado un array de strings imprime un array de solamente los strings que empiezan por ‘a’.
 
+let manyAnimals = ["raton","aguila", "perro", "araña", "gato", "leon", "alpaca"];
+let StartsWithA =[];
+
+for (let i = 0; i < manyAnimals.length; i++) {
+    if (manyAnimals[i][0] == 'a') {
+        StartsWithA.push(manyAnimals[i]);
+    }  
+}
+console.log(StartsWithA);
