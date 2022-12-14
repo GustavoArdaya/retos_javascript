@@ -35,6 +35,17 @@ for (let i = 0; i < mixedArray.length; i++) {
 }
 console.log("Inside a mixed array of numbers and strings: "+ onlyStrings + " are strings");
 
+//un metodo alternativo por sugerencia de Pere, que encontro un metodo mas directo:
+
+let onlyStrings2 = [];
+
+for (let i = 0; i < mixedArray.length; i++) {
+    if (typeof mixedArray[i] == "string") {
+        onlyStrings2.push(mixedArray[i]);
+    }
+    
+}
+console.log("(with alternative method) Inside a mixed array of numbers and strings: "+ onlyStrings2 + " are strings");
 //Cuarto reto: "Dado un array de strings imprime un array de solamente los strings que empiezan por ‘a’.
 
 let manyAnimals = ["raton","aguila", "perro", "araña", "gato", "leon", "alpaca"];
@@ -46,3 +57,7 @@ for (let i = 0; i < manyAnimals.length; i++) {
     }  
 }
 console.log(`from a list of many animals ${StartsWithA} start with the letter a`);
+
+//Quinto reto: Dado un array de strings (con palabras repetidas) imprime el numero de repeticiones de la palabra que más veces aparezca.
+
+let repeatedWords = []
