@@ -68,7 +68,7 @@ let mostRepetitions = 0;
 
 
 
-//Dado un array de objetos producto (con nombre y precio) imprime un array de los objetos que sean más caros de 10.
+//Septimo reto: Dado un array de objetos producto (con nombre y precio) imprime un array de los objetos que sean más caros de 10.
 
 let products = [["botas", 40], ["pantalones", 30], ["calcetines", 7], ["jersey", 55], ["anillo", 5]];    
 
@@ -80,5 +80,5 @@ for (let i = 0; i < products.length; i++) {
     }
     
 }
-console.log(`El array que contiene los productos de mas de 10 euros es: ${expensiveProducts}`);
+console.log(`Los productos que cuestan mas de 10 euros es: ${expensiveProducts}`);
 
