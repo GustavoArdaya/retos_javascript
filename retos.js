@@ -14,15 +14,24 @@ console.log(`the highest number is ${highestNumber}.`);
 
 let numberList2 = [3,4,7,8,9,14,18,20,104, 105, 186];
 let addedPairNumbers = 0;
-
+let addedPairNumbers2 = 0
 for (let i = 0; i < numberList2.length; i++) {
     if (numberList2[i] % 2 == 0) {
         addedPairNumbers += numberList2[i];
     }   
 }
 
+
 console.log(`the sum of the pair numbers is ${addedPairNumbers}`);
 
+//otro metodo con for of:
+
+for (const number of numberList2) {
+    if (number % 2 == 0) {
+        addedPairNumbers2 += number;}
+    }
+
+    console.log(`Using another method, the sum of the pair numbers is ${addedPairNumbers2}`);  
 //Tercer reto: "Dado un array de números y strings imprime un array de solamente los strings."
 
 let mixedArray = [1, "gato", "perro", 100, 24, "coche", -35, 71, "helado", 3];
