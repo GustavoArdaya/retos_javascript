@@ -72,10 +72,7 @@ console.log(`from a list of many animals ${StartsWithA} start with the letter a`
 let repeatedWords = ["america", "europa", "africa","america" ,"asia", "oceania", "europa", "america", "asia", "america", "europa", "america" ];
 let mostRepetitions = 0;
 
-
-
-
-
+    
 
 //Septimo reto: Dado un array de objetos producto (con nombre y precio) imprime un array de los objetos que sean más caros de 10.
 
